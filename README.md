@@ -1,1 +1,5 @@
-# google-drive-upload
+> 需求:
+  排程自動將檔案上傳至google drive試算表
+  
+## 解決過程
+首先需要至GCP開啟專案
