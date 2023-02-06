@@ -32,6 +32,8 @@ service account可以建立json檔案認證
 composer require google/apiclient:^2.12.1
 ```
 
+library 網址: https://developers.google.com/drive/api/guides/manage-uploads?hl=zh-tw
+
 ## sample code
 1. list file 範例
 ```
@@ -140,3 +142,6 @@ var_dump($file);
 exit;
 printf("File ID: %s\n", $file->id);
 ```
+
+官方網站:  
+https://developers.google.com/drive/api/guides/manage-uploads?hl=zh-tw  
