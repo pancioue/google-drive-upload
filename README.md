@@ -32,7 +32,7 @@ service account可以建立json檔案認證
 composer require google/apiclient:^2.12.1
 ```
 
-library 網址: https://developers.google.com/drive/api/guides/manage-uploads?hl=zh-tw
+library 網址: https://github.com/googleapis/google-api-php-client
 
 ## sample code
 1. list file 範例
