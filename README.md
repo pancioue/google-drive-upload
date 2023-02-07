@@ -21,7 +21,8 @@ service account可以建立json檔案認證
 
 4. 建立服務帳號金鑰  
 ![4 1-在服務帳號裡建立新的金鑰](https://user-images.githubusercontent.com/24542187/216819622-62a5f9b1-cdb2-495d-ae41-1f01a514782d.png)
-![4 2-建立金鑰選json](https://user-images.githubusercontent.com/24542187/216819623-d8e3f5f2-6b70-4228-a0a2-7069e2b1657e.png)
+![4 2-建立金鑰選json](https://user-images.githubusercontent.com/24542187/216819623-d8e3f5f2-6b70-4228-a0a2-7069e2b1657e.png)  
+    * __建立完成後會自動下載json檔案，此金鑰只會產生一次，若遺失只能重產__
 
 5. 分享檔案權限給步驟3產生的服務帳戶email
 ![5-drive-share-file](https://user-images.githubusercontent.com/24542187/216819982-461f2f5a-6307-4453-ad14-1f15861ce77b.png)  
