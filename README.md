@@ -23,8 +23,10 @@ service account可以建立json檔案認證
 ![4 1-在服務帳號裡建立新的金鑰](https://user-images.githubusercontent.com/24542187/216819622-62a5f9b1-cdb2-495d-ae41-1f01a514782d.png)
 ![4 2-建立金鑰選json](https://user-images.githubusercontent.com/24542187/216819623-d8e3f5f2-6b70-4228-a0a2-7069e2b1657e.png)
 
-5. 分享檔案權限給該service account
-![5-drive-share-file](https://user-images.githubusercontent.com/24542187/216819982-461f2f5a-6307-4453-ad14-1f15861ce77b.png)
+5. 分享檔案權限給步驟3產生的服務帳戶email
+![5-drive-share-file](https://user-images.githubusercontent.com/24542187/216819982-461f2f5a-6307-4453-ad14-1f15861ce77b.png)  
+![服務帳號email](https://user-images.githubusercontent.com/24542187/217145190-b1e38daa-ae1e-4223-bd29-0208bc8182f9.jpg)
+
 
 ## 安裝 php client library for google api
 ```
@@ -103,7 +105,7 @@ var_dump($file);
 
 3. 修改檔案
 如果上個範例的upload同樣檔名，會出現很多個一模一樣的檔案，要用修改才能覆蓋本來的檔案.  
-此範例順便將csv轉成google sheet試算表
+此為官方範例會csv轉成google sheet試算表
 ```
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
