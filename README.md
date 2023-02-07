@@ -7,8 +7,7 @@
 此案例是server to server排程自動完成，不可能每次都讓使用者去按，所以必須選擇service account方案
 service account可以建立json檔案認證
 
-1. 至GCP開啟專案  
-![1-新增專案](https://user-images.githubusercontent.com/24542187/216818649-5c5939bb-adb9-4eab-b41d-1502c465b8f2.png)
+1. 至GCP開啟或新增專案  
 
 2. 啟用Drive API 
 ![2-啟用API和服務](https://user-images.githubusercontent.com/24542187/216818699-3c767680-c1ae-4186-9e28-7c7699d51744.png)
